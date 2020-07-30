@@ -1,0 +1,41 @@
+{% extends 'layout.njk' %}
+
+{% block head %}
+    <title>Receitas</title>
+{% endblock head %}
+
+{% block content %}    
+    <div class='mais'>
+        <h3 class='mais-receitas'>Nossas receitas</h3>
+    </div>
+
+    <section class='imagens'>
+    {% for info in info_receitas %}
+            <div class="img" id= '{{info.id}}'>
+                <img src="{{ info.image }}" alt="{{ info.title }}" class="imagem">
+                <div class="inf-img">
+                    <p class="titulo">{{ info.title }}</p>
+                    <p class="descricao">{{ info.author }}</p>
+                </div>
+            </div>
+    {% endfor %}
+    </section>
+
+    <section class='imagens'>
+    {% for info in info_receitas %}
+            <div class="img" id= '{{info.id}}'>
+                <img src="{{ info.image }}" alt="{{ info.title }}" class="imagem">
+                <div class="inf-img">
+                    <p class="titulo">{{ info.title }}</p>
+                    <p class="descricao">{{ info.author }}</p>
+                </div>
+            </div>
+    {% endfor %}
+    </section>
+    
+{% endblock content %}
+
+{% block js %}
+        <script src="/scripts.js"></script>
+{% endblock js %}
+    

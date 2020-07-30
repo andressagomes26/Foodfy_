@@ -1,0 +1,35 @@
+{% extends 'layout.njk' %}
+
+{% block head %}
+    <title>Home</title>
+{% endblock head %}
+
+{% block content %}
+    <section class='apresentacao'>
+        <div class="info">
+            <h1>As melhores receitas</h1>
+            <p>Aprenda a construir os melhores pratos com receitas criadas por profissionais do mundo inteiro.</p>
+        </div>
+        <img src="119236-OQ05QX-268.png" alt="Cozinheiro">
+    </section>
+    
+    <div class='mais'>
+        <h3>Algumas receitas</h3>
+    </div>
+    
+    <section class='imagens'>
+    {% for info in info_receitas %}
+            <div class="img">
+                <img src="{{ info.image }}" alt="{{ info.title }}" class="imagem">
+                <div class="inf-img">
+                    <p class="titulo">{{ info.title }}</p>
+                    <p class="descricao">{{ info.author }}</p>
+                </div>
+            </div>
+    {% endfor %}
+    </section>
+{% endblock content %}
+
+{% block js %}
+    <div></div>
+{% endblock js %}
