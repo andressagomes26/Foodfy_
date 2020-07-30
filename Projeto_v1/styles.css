@@ -1,0 +1,389 @@
+@import 'https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet';
+@import 'https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap';
+
+*{
+    margin:0px;
+    padding:0px;
+    border: 0px;
+}
+
+
+/******** Cabeçalho ******/
+
+header{
+    margin: 0 auto;
+}
+
+.links{
+    margin-top: 35px;
+    margin-bottom: 20px;
+    
+}
+
+.links a{
+    color: black;
+    text-decoration: none;
+}
+
+.foodfy_link{
+    width: 90px;
+    height: 26px;
+    margin-left: 285px;
+    margin-right: 126px;
+    
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+
+    color: #111111;
+    filter: opacity(100%);
+
+}
+
+.sobre_link{
+    margin-right: 30px;
+
+
+}
+
+.sobre_link,
+.receitas_link{
+    width: 62px;
+    height: 19px;
+
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    
+    color: #111111;
+    filter: opacity(100%);
+}
+
+.links a:hover{
+    color:  #FBDFDB;
+    font-weight: bold;
+}
+
+/****** Informações Home *******/
+
+.apresentacao{
+    background-color: #FBDFDB;
+    border-radius: 30px;
+    
+    margin: 0 auto;
+    width: 940px;
+    height: 366px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.info{
+    margin: auto 60px;
+    text-align: justify;
+}
+
+.info h1{
+    width: 305px;
+    height: 38px;
+
+    margin-bottom: 10px;
+
+    font-size: 32px;
+    line-height: 42px;
+
+    color: #111111;
+    font-family: 'Roboto', sans-serif;
+}
+
+.info p{
+    width: 305px;
+    height: 84px;
+    
+    font-size: 18px;
+    line-height: 28px;
+
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.apresentacao img{
+    width: 216px;
+    height: 300px;
+
+    margin: 66px 100px 0 600px;
+    position: absolute;
+}
+
+/******** Imagens Home e Receitas *******/
+.mais{
+    margin-left: 285px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+    width: 174px;
+    height: 28px;
+
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #111111;
+    font-family: 'Roboto', sans-serif;
+}
+
+.imagens{
+    max-width: 1225px;
+    margin: 0 287px;
+
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+
+    margin-bottom: 50px;
+}
+
+.img img{
+    background-color: rgba(255, 255, 255, 0.089);
+    margin-left: 0;
+    margin-bottom: 10px;
+
+    width: 300px;
+    height: 140px;
+
+    border-radius: 15px;
+}
+
+.inf-img{
+    margin-left: 0;
+
+}
+
+.titulo{
+    color:#111111;
+    font-family: 'Roboto', sans-serif;
+    filter: opacity(100%);
+    font-weight: bold;
+
+    font-size: 16px;
+    inline-size: 26px;
+    
+    width: 249px;
+    height: 21px;
+
+    margin-bottom: 5px;
+}
+
+.descricao{
+    color:#777777;
+    font-family: 'Roboto', sans-serif;
+    filter: opacity(100%);
+    
+
+    font-size: 14px;
+    inline-size: 16px;
+
+    width: 249px;
+    height: 21px;
+}
+
+.img img:hover{
+    border: 4px solid rgba(216, 191, 216, 0.733);
+    filter: brightness(110%);
+    transition-duration: 200ms;
+}
+
+/****** Footer *****/
+footer{    
+    margin: 0 auto;
+    padding-top: 20px; 
+    background-color: #EEEEEE;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.footer{
+    color: #999999;
+    font-size: 14px;
+    list-style: 24px;
+
+    width:267px ;
+    height: 16px;
+    text-align: center;
+    margin-left: 630px;
+    margin-bottom: 10px;
+}
+
+/******* Sobre *****/
+
+.textos{
+    margin: 50px 255px 30px 285px;
+    text-align: justify;
+}
+
+.titulo1{
+    color:#111111;
+    font-family: 'Roboto', sans-serif;
+    filter: opacity(100%);
+    font-weight: bold;
+
+    font-size: 24px;
+    inline-size: 28px;
+    
+    width: 164px;
+    height: 28px;
+
+    margin-bottom: 20px;
+}
+
+.p1, .p11{
+    color:#444444;
+    font-family: 'Roboto', sans-serif;
+    filter: opacity(100%);
+
+    font-size: 18px;
+    inline-size: 28px;
+    
+    width: 940px;
+    height: 120px;
+}
+
+.sub-titulo1,
+.sub-titulo2{
+    color:#111111;
+    font-family: 'Roboto', sans-serif;
+    filter: opacity(100%);
+    font-weight: bold;
+
+    font-size: 20px;
+    inline-size: 24px;
+    
+    width: 202px;
+    height: 24px;
+
+    margin-bottom: 10px;
+}
+
+.p2,
+.p22, .p3{
+    color:#444444;
+    font-family: 'Roboto', sans-serif;
+    filter: opacity(100%);
+
+    font-size: 18px;
+    inline-size: 28px;
+    
+    width: 940px;
+    height: 120px;
+}
+
+/******** Receitas ******/ 
+
+.mais{
+    margin-left: 285px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+    width: 174px;
+    height: 28px;
+
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #111111e1;
+    font-family: 'Roboto', sans-serif;
+}
+
+/******* Modal Receitas *********/ 
+.modal-overlay{
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal{
+    background-color: white;
+
+    width: 660px;
+    height: 413px;
+
+    margin: 200px 370px 255px 440px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.modal img{
+    width: 600px;
+    height: 200px;
+
+    position: relative;
+    
+    margin-top: 25px;
+    margin-bottom: 10px;
+
+    border-radius: 12px;
+}
+.modal h3{
+    color:#111111;
+    font-family: 'Roboto', sans-serif;
+    filter: opacity(100%);
+    font-weight: lighter;
+
+    font-size: 24px;
+    inline-size: 28px;
+    
+    width: 332px;
+    height: 28px;
+
+    margin: 15px auto;
+    text-align: center;
+
+}
+
+.modal p{
+    color:#777777;
+    font-family: 'Roboto', sans-serif;
+    filter: opacity(100%);
+    font-weight: lighter;
+
+    font-size: 18px;
+    inline-size: 21px;
+    
+    width: 332px;
+    height: 28px;
+
+    margin: 0 auto 50px auto;
+    text-align: center;
+
+}
+
+.modal .p1{
+    color:#777777;
+    font-family: 'Roboto', sans-serif;
+    filter: opacity(100%);
+    font-weight: lighter;
+
+    font-size: 16px;
+    inline-size: 19px;
+    
+    width: 98px;
+    height: 19px;
+
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.modal a{
+    cursor: pointer;
+}
+
+/******* Modal ativado ******/
+
+.modal-overlay.active{
+    opacity: 1;
+    visibility: visible;
+}
