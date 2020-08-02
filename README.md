@@ -18,18 +18,6 @@ O Foodfy é um site criado para uma empresa fictícia de culinária, na qual é 
 - Node.js;
 - Nunjucks.
 
-## Instalações
-
- -  Express:
-   ```bash
-  $ npm install express
-  ```
- 
- - Nunjucks: 
-  ```bash
-  $ npm install nunjucks
-  ```
-
 ## Autor
 - Andressa Gomes Moreira - andressa_gomes.12@hotmail.com 
 
