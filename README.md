@@ -5,7 +5,7 @@
 
 # Sobre Foodfy <img width="55" height="50" src="https://user-images.githubusercontent.com/60404990/85142175-5733d880-b21e-11ea-90f9-140be7bfe8cd.png">
 
-O Foodfy é um site criado para uma empresa fictícia de culinária, na qual é dividido em páginas contendo a página inicial, informações sobre a empresa, as principais receita, as principais informações sobre cada uma delas, além de conter um espaço para o administrador que deseja cadastrar, editar ou excluir uma receita.
+O Foodfy é um site criado para uma empresa fictícia de culinária, na qual é dividido em páginas contendo a página inicial, informações sobre a empresa, as principais receita, as principais informações sobre cada uma delas, além de conter um espaço para o administrador que deseja cadastrar, editar ou excluir determinada receita.
 
 
 ## Dependências 
