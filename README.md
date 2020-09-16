@@ -19,7 +19,7 @@ O Foodfy é um site criado para uma empresa fictícia de culinária, na qual é 
 - Nunjucks.
 
 ## Autor
-- Andressa Gomes Moreira - andressa_gomes.12@hotmail.com 
+- Andressa Gomes Moreira - andressagomes@alu.ufc.br 
 
 ## Status do Projeto
 - O projeto encontra-se em andamento.
